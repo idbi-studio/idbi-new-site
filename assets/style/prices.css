@@ -1,0 +1,1429 @@
+@charset "UTF-8";
+/*=========================================
+  NULL
+=========================================*/
+/* line 12, prices.scss */
+.window-load .prices_body .section {
+  opacity: 1; }
+
+/* line 18, prices.scss */
+.prices_body p,
+.prices_body ul,
+.prices_body ol {
+  margin: 0;
+  padding: 0; }
+/* line 25, prices.scss */
+.prices_body ol ol,
+.prices_body ul ul,
+.prices_body ul ol,
+.prices_body ol ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+/* line 33, prices.scss */
+.prices_body li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+/* line 38, prices.scss */
+.prices_body section {
+  height: 100%; }
+/* line 41, prices.scss */
+.prices_body .section {
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-out !important;
+  -o-transition: opacity 0.5s ease-out !important;
+  transition: opacity 0.5s ease-out !important; }
+/* line 50, prices.scss */
+.prices_body .heading_prices line {
+  position: fixed;
+  z-index: 0;
+  bottom: -37px;
+  left: 0;
+  height: 300px;
+  width: 100%; }
+/* line 60, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic {
+  overflow: hidden;
+  font-size: 0; }
+/* line 65, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  -webkit-transform: scale(0.33);
+  -ms-transform: scale(0.33);
+  transform: scale(0.33);
+  position: relative;
+  cursor: url("pointer-click.png") 15 15, auto; }
+/* line 73, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1; }
+/* line 80, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  -webkit-transform: scale(0.71);
+  -ms-transform: scale(0.71);
+  transform: scale(0.71);
+  opacity: .5; }
+/* line 87, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  -webkit-transform: scale(0.33);
+  -ms-transform: scale(0.33);
+  transform: scale(0.33);
+  opacity: .1; }
+/* line 94, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+  -webkit-transform: scale(0.71);
+  -ms-transform: scale(0.71);
+  transform: scale(0.71);
+  opacity: .5; }
+/* line 101, prices.scss */
+.prices_body .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+  -webkit-transform: scale(0.33);
+  -ms-transform: scale(0.33);
+  transform: scale(0.33);
+  opacity: .1; }
+/* line 108, prices.scss */
+.prices_body .swiper-pagination-bullet {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out !important;
+  -o-transition: all 0.5s ease-out !important;
+  transition: all 0.5s ease-out !important; }
+
+/*=========================================
+  HEAD
+=========================================*/
+/* line 121, prices.scss */
+.heading_prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  /* line 125, prices.scss */
+  .heading_prices .heading_red,
+  .heading_prices .heading_black,
+  .heading_prices .heading_subtext_right,
+  .heading_prices .heading_subtext_small {
+    display: inline-block; }
+  /* line 131, prices.scss */
+  .heading_prices .main-wrapper {
+    height: auto; }
+  /* line 134, prices.scss */
+  .heading_prices .main-flex-wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  /* line 138, prices.scss */
+  .heading_prices h1 {
+    font-size: 76px;
+    margin: 25px 0 37px; }
+    /* line 141, prices.scss */
+    .heading_prices h1 .heading_red {
+      color: white;
+      white-space: nowrap;
+      font-size: 120px;
+      line-height: 130px;
+      padding: 0 23px;
+      font-weight: 400;
+      /* Найти шрифт нужной толщины */
+      text-transform: uppercase;
+      background-color: #dc2c3d; }
+    /* line 151, prices.scss */
+    .heading_prices h1 .heading_black {
+      font-size: 52px;
+      line-height: 92px;
+      background-color: #1f1f1f;
+      color: white;
+      padding: 0 25px; }
+  /* line 159, prices.scss */
+  .heading_prices .heading_subtext_right {
+    text-align: right;
+    color: #1f1f1f;
+    font-family: "Museo Sans Cyrl";
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    flex-basis: 100%;
+    padding-bottom: 35px; }
+  /* line 169, prices.scss */
+  .heading_prices .heading_subtext_small {
+    color: #1f1f1f;
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    font-weight: 100;
+    width: 45%; }
+
+/* line 177, prices.scss */
+.portfolio-slider-line {
+  overflow: hidden;
+  height: 250px;
+  padding-top: 105px;
+  position: absolute;
+  bottom: 0;
+  -webkit-animation: 75s leftflow infinite linear;
+  animation: 75s leftflow infinite linear; }
+  /* line 185, prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 190vw; }
+    /* line 189, prices.scss */
+    .portfolio-slider-line .scroll-slider li {
+      margin-left: -25px; }
+      /* line 191, prices.scss */
+      .portfolio-slider-line .scroll-slider li img {
+        height: 100%;
+        width: 100%;
+        border: 6px solid #272726;
+        border-radius: 13px;
+        box-shadow: inset 0px 0px 0px 10px #272726; }
+
+/*=========================================
+  PORTFOLIO LINE
+=========================================*/
+/* line 207, prices.scss */
+.over-fix {
+  overflow: hidden; }
+
+/*=========================================
+  ROTATING PRICES CALCULATOR
+=========================================*/
+/* line 216, prices.scss */
+.swiper-wrapper.mousewheel {
+  transition-duration: .11s !important; }
+
+/* line 220, prices.scss */
+.rotating_prices {
+  cursor: url("mouse_arrow.png") 0 0, auto;
+  max-height: 100vh;
+  background-color: #272726; }
+  /* line 225, prices.scss */
+  .rotating_prices h2 {
+    font-size: 30px;
+    font-family: "Museo Sans Cyrl";
+    font-weight: 700;
+    text-transform: initial;
+    color: white;
+    width: 100%;
+    margin: 20px auto 45px; }
+  /* line 234, prices.scss */
+  .rotating_prices .scrollContainer {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    /* line 243, prices.scss */
+    .rotating_prices .scrollContainer .rotating-vertical {
+      position: relative;
+      height: 500px;
+      overflow: hidden; }
+      /* line 247, prices.scss */
+      .rotating_prices .scrollContainer .rotating-vertical:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(to top, #272726 0%, rgba(39, 39, 38, 0.7) 23%, rgba(39, 39, 38, 0) 35%, rgba(39, 39, 38, 0) 65%, rgba(39, 39, 38, 0.7) 77%, #272726 100%);
+        height: 100%;
+        width: 100%;
+        z-index: 11; }
+      /* line 263, prices.scss */
+      .rotating_prices .scrollContainer .rotating-vertical .swiper-slide {
+        color: #b6b6b6;
+        margin-left: 23%;
+        text-align: right;
+        width: 105px;
+        height: 300px;
+        padding-right: 242px;
+        background: #272726; }
+        /* line 272, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .fish {
+          will-change: transform;
+          transition: all 0.3s;
+          will-change: scale; }
+        /* line 278, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:first-child .fish:first-child {
+          margin-top: 80px; }
+        /* line 281, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:first-child .right-text {
+          top: 115px;
+          height: 41%; }
+        /* line 287, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:last-child .right-text {
+          height: 41%; }
+        /* line 291, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide b {
+          position: relative;
+          background-color: transparent;
+          padding: 32px 24px 32px 0;
+          display: block;
+          transform: scale(1.3); }
+        /* line 298, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide hr {
+          content: "";
+          position: relative;
+          top: -41px;
+          right: -135px;
+          width: 170px;
+          height: 1px;
+          background-color: #b6b6b6;
+          margin: 0;
+          opacity: .1; }
+        /* line 310, prices.scss */
+        .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .right-text {
+          position: absolute;
+          top: 30px;
+          right: -645px;
+          width: 557px;
+          height: 77%;
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+    /* line 323, prices.scss */
+    .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+      overflow: visible;
+      width: 170px !important;
+      right: calc(50% - 85px);
+      top: 250px !important;
+      z-index: 15; }
+      /* line 329, prices.scss */
+      .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        outline: none;
+        width: 165px;
+        height: 100px;
+        border-radius: initial; }
+        /* line 334, prices.scss */
+        .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet:nth-child(5n+1) {
+          overflow: visible;
+          background: url("bull-boom.png") no-repeat center center transparent; }
+        /* line 338, prices.scss */
+        .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet:nth-child(5n+2) {
+          background: url("bull-rocket.png") no-repeat center center transparent; }
+        /* line 341, prices.scss */
+        .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet:nth-child(5n+3) {
+          background: url("bull-plane.png") no-repeat center center transparent; }
+        /* line 344, prices.scss */
+        .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet:nth-child(5n+4) {
+          background: url("bull-car.png") no-repeat center center transparent; }
+        /* line 347, prices.scss */
+        .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet:nth-child(5n+5) {
+          background: url("bull-velo.png") no-repeat center center transparent; }
+        /* line 350, prices.scss */
+        .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet:before {
+          pointer-events: none;
+          position: absolute;
+          z-index: -1;
+          content: '';
+          border-style: solid;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          -webkit-transition-property: transform;
+          transition-property: transform;
+          top: calc(50% - 10px);
+          left: 0;
+          border-width: 10px 10px 10px 0;
+          border-color: transparent #e1e1e1 transparent transparent;
+          opacity: 0; }
+  /* line 369, prices.scss */
+  .rotating_prices .demo {
+    font-size: 0;
+    text-align: center;
+    background-image: url("example_bg_v.png"); }
+  /* line 374, prices.scss */
+  .rotating_prices .spacer {
+    text-align: center;
+    min-height: 100px;
+    background-image: url("example_bg_spacer_v.gif"); }
+    /* line 378, prices.scss */
+    .rotating_prices .spacer.s2 {
+      min-height: 700px; }
+    /* line 381, prices.scss */
+    .rotating_prices .spacer.s3 {
+      min-height: 700px; }
+  /* line 385, prices.scss */
+  .rotating_prices .box1, .rotating_prices .box2, .rotating_prices .box3 {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    border: 0px solid white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 5px; }
+  /* line 394, prices.scss */
+  .rotating_prices .box1 {
+    min-width: 100px;
+    height: 100px;
+    margin: 0 auto 0 auto; }
+
+/* line 402, prices.scss */
+.prices_body .decor-title .bg-bottom-line-text {
+  font-size: 30px;
+  text-transform: initial;
+  max-width: 405px;
+  margin-left: 60px; }
+  /* line 407, prices.scss */
+  .prices_body .decor-title .bg-bottom-line-text:before {
+    left: 21px;
+    height: 37px;
+    line-height: 37px; }
+  /* line 412, prices.scss */
+  .prices_body .decor-title .bg-bottom-line-text .after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: -0.8rem;
+    left: 2.7rem;
+    width: 89%;
+    height: 1.3em;
+    background: #6e4f6959; }
+/* line 424, prices.scss */
+.prices_body .decor-title-subtext {
+  padding-left: 120px;
+  display: block;
+  font-weight: 100; }
+  /* line 428, prices.scss */
+  .prices_body .decor-title-subtext .man_col {
+    margin-top: 47px;
+    display: inline-block;
+    color: #1f1f1f;
+    font-weight: 700;
+    font-size: 30px; }
+/* line 436, prices.scss */
+.prices_body .free-consult-prices {
+  background: white;
+  position: relative;
+  padding-bottom: 0;
+  background: url(phone-illustr.png) 80% 50% no-repeat; }
+  @media (max-width: 1024px) {
+    /* line 436, prices.scss */
+    .prices_body .free-consult-prices {
+      background: #fff; } }
+  /* line 445, prices.scss */
+  .prices_body .free-consult-prices h2 {
+    line-height: 1.25;
+    margin-bottom: 13%;
+    padding-right: 0px;
+    max-width: 519px; }
+  /* line 452, prices.scss */
+  .prices_body .free-consult-prices .decor-title:after {
+    display: none; }
+  /* line 456, prices.scss */
+  .prices_body .free-consult-prices .cell-6:first-child {
+    padding-top: 7%; }
+  /* line 460, prices.scss */
+  .prices_body .free-consult-prices .cell-6:last-child {
+    padding-left: 9%; }
+  /* line 464, prices.scss */
+  .prices_body .free-consult-prices .phone {
+    font-family: Direct;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+    color: #1f1f1f;
+    text-transform: uppercase; }
+  /* line 473, prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    width: 171px;
+    height: 133px;
+    background-color: #dc2c3d;
+    color: #ffffff;
+    font-family: Direct;
+    font-size: 24px;
+    line-height: 133px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 14%; }
+  /* line 487, prices.scss */
+  .prices_body .free-consult-prices form {
+    padding-top: 40px; }
+    /* line 489, prices.scss */
+    .prices_body .free-consult-prices form .title {
+      font-family: Direct;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      max-width: 290px;
+      margin-bottom: 30px; }
+    /* line 498, prices.scss */
+    .prices_body .free-consult-prices form .feedback-field-wrap {
+      max-width: 390px;
+      margin: 0; }
+    /* line 503, prices.scss */
+    .prices_body .free-consult-prices form .feedback-row {
+      margin-bottom: 8px;
+      font-weight: 100; }
+    /* line 508, prices.scss */
+    .prices_body .free-consult-prices form .chkbx-control {
+      width: 15px;
+      height: 15px;
+      border-color: #1f1f1f;
+      top: -webkit-calc(11px - 0.5em);
+      top: calc(11px - 0.5em); }
+    /* line 516, prices.scss */
+    .prices_body .free-consult-prices form .feedback-agree {
+      margin: 3.1rem auto 0.5rem; }
+    /* line 520, prices.scss */
+    .prices_body .free-consult-prices form .chkbx + .chkbx-control:after {
+      width: 11px;
+      height: 11px; }
+    /* line 525, prices.scss */
+    .prices_body .free-consult-prices form input {
+      height: 62px;
+      background: #fff;
+      border: 1px solid #1f1f1f;
+      padding: 0 35px;
+      font-size: 16px;
+      font-family: inherit;
+      color: #1f1f1f;
+      transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      font-weight: 100;
+      width: 100%; }
+    /* line 541, prices.scss */
+    .prices_body .free-consult-prices form input::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #1f1f1f; }
+    /* line 545, prices.scss */
+    .prices_body .free-consult-prices form input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #1f1f1f;
+      opacity: 1; }
+    /* line 550, prices.scss */
+    .prices_body .free-consult-prices form input::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #1f1f1f;
+      opacity: 1; }
+    /* line 555, prices.scss */
+    .prices_body .free-consult-prices form input:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #1f1f1f; }
+    /* line 559, prices.scss */
+    .prices_body .free-consult-prices form input:focus::-webkit-input-placeholder {
+      /* WebKit browsers */
+      opacity: 0; }
+    /* line 563, prices.scss */
+    .prices_body .free-consult-prices form input:focus:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      opacity: 0; }
+    /* line 567, prices.scss */
+    .prices_body .free-consult-prices form input:focus::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      opacity: 0; }
+    /* line 571, prices.scss */
+    .prices_body .free-consult-prices form input:focus:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      opacity: 0; }
+    /* line 575, prices.scss */
+    .prices_body .free-consult-prices form button {
+      margin-top: 40px; }
+  /* line 579, prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    position: absolute;
+    top: 60px;
+    left: calc(50% + 135px); }
+  /* line 584, prices.scss */
+  .prices_body .free-consult-prices .cell-6:last-child {
+    padding-left: 135px; }
+    /* line 586, prices.scss */
+    .prices_body .free-consult-prices .cell-6:last-child form .feedback-agree {
+      margin-left: -18px; }
+@media (max-width: 1010px) {
+  /* line 592, prices.scss */
+  .prices_body .free-consult-prices h2 {
+    margin-bottom: 30px; }
+  /* line 597, prices.scss */
+  .prices_body .free-consult-prices .cell-6 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%; }
+  /* line 604, prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px; } }
+@media (max-width: 480px) {
+  /* line 613, prices.scss */
+  .prices_body .free-consult-prices {
+    padding-top: 7%; } }
+/* line 617, prices.scss */
+.prices_body .why-expensive {
+  background-color: #6b4f69;
+  color: white; }
+  /* line 622, prices.scss */
+  .prices_body .why-expensive .leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    /* line 626, prices.scss */
+    .prices_body .why-expensive .leftside .bg-bottom-line-text {
+      margin-left: 0;
+      padding-left: 0;
+      line-height: 34px; }
+      /* line 630, prices.scss */
+      .prices_body .why-expensive .leftside .bg-bottom-line-text:before {
+        content: "";
+        left: 0px;
+        background: white;
+        height: 50px;
+        width: 50px;
+        top: -70px; }
+      /* line 638, prices.scss */
+      .prices_body .why-expensive .leftside .bg-bottom-line-text .after {
+        position: absolute;
+        z-index: -1;
+        content: '';
+        bottom: -0.8rem;
+        left: -0.3rem;
+        width: 99%;
+        height: 100%;
+        background: #1f1f1f; }
+    /* line 650, prices.scss */
+    .prices_body .why-expensive .leftside .decor-title .bg-bottom-line-text {
+      position: inherit;
+      z-index: 5;
+      max-width: 553px; }
+    /* line 655, prices.scss */
+    .prices_body .why-expensive .leftside .decor-title:after {
+      display: none; }
+    /* line 659, prices.scss */
+    .prices_body .why-expensive .leftside img {
+      max-width: 553px;
+      width: 100%;
+      padding: 95px 80px 0; }
+    /* line 664, prices.scss */
+    .prices_body .why-expensive .leftside h3.bg-bottom-line-text {
+      margin-bottom: 55px; }
+  /* line 668, prices.scss */
+  .prices_body .why-expensive .rightside {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 672, prices.scss */
+    .prices_body .why-expensive .rightside .square-flex {
+      flex: 1 0 50%;
+      padding: 0 0 95px; }
+      /* line 675, prices.scss */
+      .prices_body .why-expensive .rightside .square-flex .square-counter {
+        display: block;
+        width: 100%;
+        padding: 0 0 30px;
+        font-weight: 700; }
+      /* line 681, prices.scss */
+      .prices_body .why-expensive .rightside .square-flex p {
+        margin-right: 25.33%;
+        font-weight: lighter;
+        font-size: 16px; }
+    /* line 687, prices.scss */
+    .prices_body .why-expensive .rightside#adaptiveSlider {
+      overflow: hidden; }
+      /* line 689, prices.scss */
+      .prices_body .why-expensive .rightside#adaptiveSlider .square-counter {
+        font-size: 20px; }
+      /* line 692, prices.scss */
+      .prices_body .why-expensive .rightside#adaptiveSlider .square-flex {
+        flex: 1 0 100%;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+/* line 702, prices.scss */
+.prices_body .footer-navigate {
+  margin-top: 0; }
+
+/* line 707, prices.scss */
+footer {
+  height: 100vh;
+  background: url(../images/footer-bg.jpg) no-repeat center top/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 21;
+  position: relative; }
+  /* line 716, prices.scss */
+  footer .fp-tableCell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 62px; }
+  /* line 722, prices.scss */
+  footer .copy {
+    margin-top: 0%; }
+
+/* line 727, prices.scss */
+#scroll-animate {
+  position: absolute;
+  bottom: 47%;
+  right: 3%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #1f1f1f;
+  font: normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s; }
+  /* line 740, prices.scss */
+  #scroll-animate span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #1f1f1f;
+    border-radius: 50px;
+    box-sizing: border-box; }
+    /* line 750, prices.scss */
+    #scroll-animate span:before {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      content: '';
+      width: 6px;
+      height: 6px;
+      margin-left: -3px;
+      background-color: #1f1f1f;
+      border-radius: 100%;
+      -webkit-animation: ppScroll 1.7s infinite;
+      animation: ppScroll 1.7s infinite;
+      box-sizing: border-box; }
+
+/* line 767, prices.scss */
+.full-form-snippet form .feedback-row {
+  margin-bottom: 8px;
+  font-weight: 100; }
+
+@-webkit-keyframes leftflow {
+  0% {
+    margin-left: 0%;
+    width: 100%; }
+  50% {
+    margin-left: -70%;
+    width: 300%; }
+  100% {
+    margin-left: 0%;
+    width: 100%; } }
+@keyframes leftflow {
+  0% {
+    margin-left: 0%;
+    width: 100%; }
+  50% {
+    margin-left: -70%;
+    width: 300%; }
+  100% {
+    margin-left: 0%;
+    width: 100%; } }
+@-webkit-keyframes ppScroll {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes ppScroll {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@media screen and (max-width: 1700px) {
+  /* line 3, responsive_prices.scss */
+  .heading_prices .main-wrapper {
+    margin-top: 15px; }
+
+  /* line 6, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    vertical-align: top;
+    flex-basis: 100%; }
+
+  /* line 10, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    min-width: 490px; }
+
+  /* line 13, responsive_prices.scss */
+  .heading_prices .main-flex-wrapper {
+    flex-wrap: wrap; }
+
+  /* line 16, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    flex-basis: 100%; }
+
+  /* line 19, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    padding: 0px; } }
+@media screen and (min-width: 900px) and (max-width: 1700px) and (min-height: 731px) and (max-height: 830px) {
+  /* line 24, responsive_prices.scss */
+  .heading_prices .main-flex-wrapper {
+    margin-top: -85px; } }
+@media screen and (min-height: 830px) {
+  /* line 29, responsive_prices.scss */
+  .heading_prices .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+
+  /* line 34, responsive_prices.scss */
+  .rotating_prices .fp-tableCell > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+
+  /* line 39, responsive_prices.scss */
+  .rotating_prices h2 {
+    margin: 40px auto 0px; } }
+@media screen and (max-height: 830px) {
+  /* line 44, responsive_prices.scss */
+  .heading_prices .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+
+  /* line 49, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    font-size: 15px; }
+
+  /* line 52, responsive_prices.scss */
+  .rotating_prices .scrollContainer {
+    height: 450px; }
+
+  /* line 55, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+    top: 225px !important; }
+
+  /* line 58, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide b {
+    padding: 27px 24px 27px 0; }
+
+  /* line 61, responsive_prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    width: 100px;
+    height: 79px;
+    font-size: 21px;
+    line-height: 73px; }
+
+  /* line 67, responsive_prices.scss */
+  .prices_body .free-consult-prices {
+    padding: 0; }
+
+  /* line 70, responsive_prices.scss */
+  .prices_body .why-expensive .rightside {
+    padding: 0; } }
+@media screen and (orientation: landscape) and (min-width: 1440px) and (max-height: 755px) {
+  /* line 75, responsive_prices.scss */
+  .heading_prices .main-wrapper {
+    margin-top: 40px;
+    height: calc(100% - 280px); }
+
+  /* line 79, responsive_prices.scss */
+  .heading_prices .main-flex-wrapper {
+    flex-wrap: nowrap; }
+
+  /* line 82, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    flex-basis: 50%; }
+
+  /* line 85, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    padding: 0px 30px 0 11%; } }
+@media screen and (max-width: 1440px) {
+  /* line 90, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 90px;
+    line-height: 110px;
+    padding: 0 21px; }
+
+  /* line 95, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 41px;
+    line-height: 67px;
+    padding: 0 23px;
+    vertical-align: super; }
+
+  /* line 103, responsive_prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    width: 270vw; }
+
+  /* line 106, responsive_prices.scss */
+  .prices_body .why-expensive .rightside .square-flex {
+    padding: 0 0 65px; }
+
+  /* line 109, responsive_prices.scss */
+  .prices_body .why-expensive .rightside .square-flex p {
+    font-size: 15px;
+    margin-right: 11.33%; }
+
+  /* line 113, responsive_prices.scss */
+  #scroll-animate {
+    display: none; } }
+@media screen and (max-width: 1440px) and (orientation: landscape) and (max-height: 715px) {
+  /* line 119, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 90px;
+    line-height: 110px;
+    padding: 0 21px; }
+
+  /* line 124, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 41px;
+    line-height: 67px;
+    padding: 0 23px;
+    vertical-align: super; }
+
+  /* line 130, responsive_prices.scss */
+  .heading_prices .main-flex-wrapper {
+    flex-wrap: nowrap; }
+
+  /* line 133, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 24px;
+    flex-basis: 50%; }
+
+  /* line 138, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    padding: 0 5%;
+    flex-basis: 50%; }
+
+  /* line 142, responsive_prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    width: 270vw;
+    bottom: -77px; }
+
+  /* line 146, responsive_prices.scss */
+  .rotating_prices .scrollContainer {
+    height: 300px; }
+
+  /* line 149, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical {
+    left: -21%; }
+
+  /* line 152, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+    top: 150px !important; }
+
+  /* line 155, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .fish {
+    display: none; }
+
+  /* line 158, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .right-text {
+    display: block; }
+
+  /* line 161, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:first-child .fish:first-child {
+    margin-top: 50px; }
+
+  /* line 164, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide hr {
+    display: none; }
+
+  /* line 167, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:last-child .fish:last-child {
+    padding: 17px 24px 23px 0; }
+
+  /* line 170, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide b {
+    padding: 14px 24px 15px 0; }
+
+  /* line 173, responsive_prices.scss */
+  .prices_body .free-consult-prices .cell-6:last-child {
+    padding-left: 73px; }
+
+  /* line 176, responsive_prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    left: calc(50% + 73px); } }
+@media screen and (max-width: 1280px) {
+  /* line 181, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 25px; }
+
+  /* line 184, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    width: 65%;
+    flex-basis: 65%; }
+
+  /* line 189, responsive_prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    width: 310vw; }
+
+  /* line 192, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:first-child .right-text {
+    top: 19px; }
+
+  /* line 195, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .right-text {
+    right: auto;
+    left: 117%;
+    width: 30vw; }
+
+  /* line 200, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide hr {
+    display: none; } }
+@media screen and (max-width: 1280px) and (max-height: 715px) {
+  /* line 206, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    padding: 0 5%;
+    flex-basis: 50%;
+    width: 50%; }
+
+  /* line 211, responsive_prices.scss */
+  .heading_prices .main-wrapper {
+    display: block; } }
+@media only screen and (max-width: 1024px) {
+  /* line 216, responsive_prices.scss */
+  .heading_prices h1 {
+    font-size: 71px; }
+
+  /* line 219, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 70px;
+    line-height: 90px; }
+
+  /* line 223, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 35px;
+    line-height: 61px; }
+
+  /* line 227, responsive_prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    width: 350vw; }
+
+  /* line 231, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .right-text {
+    left: 93%;
+    width: 35vw; } }
+@media only screen and (max-width: 1024px) {
+  /* line 238, responsive_prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    margin: 0; } }
+@media screen and (orientation: portrait) and (min-height: 830px) {
+  /* line 243, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 81px;
+    line-height: 97px; }
+
+  /* line 247, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 41px;
+    line-height: 65px;
+    min-width: auto; }
+
+  /* line 252, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 27px; }
+
+  /* line 255, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    font-size: 17px; } }
+@media screen and (orientation: landscape) and (min-height: 768px) and (max-width: 1024px) {
+  /* line 260, responsive_prices.scss */
+  .prices_body .heading_prices line {
+    bottom: -87px; } }
+@media screen and (max-height: 668px) {
+  /* line 267, responsive_prices.scss */
+  .heading_prices .main-wrapper {
+    display: block; }
+
+  /* line 271, responsive_prices.scss */
+  .prices_body .heading_prices line {
+    bottom: -65px; }
+
+  /* line 274, responsive_prices.scss */
+  .prices_body .decor-title .bg-bottom-line-text {
+    font-size: 25px;
+    margin-bottom: 7%;
+    padding-right: 45px; }
+
+  /* line 279, responsive_prices.scss */
+  .rotating_prices h2 {
+    margin: 70px auto 25px; } }
+@media screen and (max-height: 768px) {
+  /* line 285, responsive_prices.scss */
+  .prices_body .heading_prices line {
+    bottom: -71px; }
+
+  /* line 288, responsive_prices.scss */
+  .prices_body .free-consult-prices .or-label {
+    display: none; }
+
+  /* line 291, responsive_prices.scss */
+  .prices_body .why-expensive .leftside .bg-bottom-line-text::before {
+    display: none; }
+
+  /* line 294, responsive_prices.scss */
+  .prices_body .why-expensive .leftside {
+    margin-top: 105px; }
+
+  /* line 297, responsive_prices.scss */
+  .prices_body .why-expensive .rightside {
+    margin-top: 130px; }
+
+  /* line 300, responsive_prices.scss */
+  .prices_body .why-expensive .leftside img {
+    padding: 13px 80px 0; }
+
+  /* line 303, responsive_prices.scss */
+  .prices_body .why-expensive .rightside .square-flex {
+    padding: 0 0 45px; }
+
+  /* line 306, responsive_prices.scss */
+  .prices_body .why-expensive .rightside .square-flex p {
+    font-size: 13px; } }
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  /* line 313, responsive_prices.scss */
+  .prices_body .why-expensive .leftside {
+    margin-top: 115px; }
+
+  /* line 316, responsive_prices.scss */
+  .prices_body .why-expensive .rightside {
+    margin-top: 10px; } }
+@media screen and (max-width: 768px) and (max-height: 768px) {
+  /* line 323, responsive_prices.scss */
+  .prices_body .why-expensive .leftside {
+    margin-top: 0px; } }
+@media screen and (max-height: 565px) {
+  /* line 328, responsive_prices.scss */
+  .prices_body .heading_prices line {
+    display: none; }
+
+  /* line 331, responsive_prices.scss */
+  footer {
+    height: auto; } }
+@media screen and (max-width: 768px) {
+  /* line 338, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .right-text {
+    display: flex;
+    justify-content: center;
+    left: 70px;
+    top: 15px;
+    width: 50vw;
+    background-color: #272726;
+    padding: 11px 0; }
+
+  /* line 349, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical {
+    left: 100px; }
+
+  /* line 352, responsive_prices.scss */
+  .prices_body .free-consult-prices .cell-6:last-child {
+    padding-left: 3%; }
+
+  /* line 356, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .fish {
+    display: none; }
+
+  /* line 359, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+    width: 40vw !important;
+    left: 0; }
+
+  /* line 363, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    width: 65%; }
+
+  /* line 366, responsive_prices.scss */
+  .why-expensive .container > .row {
+    padding: 0 9%; }
+
+  /* line 369, responsive_prices.scss */
+  .prices_body .free-consult-prices form {
+    position: relative; }
+
+  /* line 372, responsive_prices.scss */
+  .form-done,
+  .form-error {
+    background: antiquewhite;
+    display: block;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    margin-left: -1px; }
+
+  /* line 381, responsive_prices.scss */
+  .form-done {
+    background: aquamarine; }
+
+  /* line 384, responsive_prices.scss */
+  .decor-title {
+    margin-top: 50px; } }
+@media screen and (max-width: 768px) and (min-height: 768px) {
+  /* line 391, responsive_prices.scss */
+  .heading_prices h1 {
+    font-size: 71px;
+    margin: 21px 0 30px; }
+
+  /* line 395, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 50px;
+    line-height: 83px; }
+
+  /* line 399, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 37px;
+    line-height: 50px;
+    min-width: auto; }
+
+  /* line 404, responsive_prices.scss */
+  .main-flex-wrapper {
+    padding: 0 11%; }
+
+  /* line 407, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 21px;
+    text-align: left; }
+
+  /* line 411, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    flex-basis: 100%;
+    min-width: auto; }
+
+  /* line 415, responsive_prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    width: 530vw; }
+
+  /* line 418, responsive_prices.scss */
+  .rotating_prices h2 {
+    font-size: 25px;
+    width: 93%;
+    line-height: 30px; } }
+@media screen and (max-width: 768px) and (min-height: 398px) {
+  /* line 427, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 20px; }
+
+  /* line 430, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    font-size: 15px;
+    min-width: auto; }
+
+  /* line 434, responsive_prices.scss */
+  .rotating_prices .scrollContainer div.rotating-vertical {
+    left: 0;
+    transform: scale(0.9);
+    margin-top: -50px; }
+
+  /* line 439, responsive_prices.scss */
+  .rotating_prices h2 {
+    font-size: 17px;
+    width: 97%;
+    line-height: 23px; }
+
+  /* line 444, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+    top: 250px !important; }
+
+  /* line 447, responsive_prices.scss */
+  .prices_body .why-expensive .leftside h3.bg-bottom-line-text {
+    margin-bottom: 15px; }
+
+  /* line 450, responsive_prices.scss */
+  .prices_body .why-expensive .rightside#adaptiveSlider .square-counter {
+    padding: 11px; }
+
+  /* line 454, responsive_prices.scss */
+  .prices_body .why-expensive .rightside .square-flex p {
+    padding: 30px 11px;
+    font-size: 17px; } }
+@media screen and (max-width: 768px) and (max-height: 398px) {
+  /* line 461, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 20px; }
+
+  /* line 464, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    font-size: 15px;
+    min-width: auto; }
+
+  /* line 468, responsive_prices.scss */
+  .rotating_prices .scrollContainer div.rotating-vertical {
+    left: 0;
+    transform: scale(0.9);
+    margin-top: -50px; }
+
+  /* line 473, responsive_prices.scss */
+  .rotating_prices h2 {
+    font-size: 17px;
+    width: 97%;
+    line-height: 23px; }
+
+  /* line 478, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+    top: 250px !important; }
+
+  /* line 481, responsive_prices.scss */
+  .prices_body .why-expensive .leftside h3.bg-bottom-line-text {
+    margin-bottom: 15px; }
+
+  /* line 484, responsive_prices.scss */
+  .prices_body .why-expensive .rightside#adaptiveSlider .square-counter {
+    padding: 11px; }
+
+  /* line 488, responsive_prices.scss */
+  .prices_body .why-expensive .rightside .square-flex p {
+    padding: 30px 11px;
+    font-size: 17px; } }
+@media screen and (max-width: 555px) {
+  /* line 496, responsive_prices.scss */
+  .heading_prices h1 {
+    font-size: 61px;
+    margin: 13px 0 15px; }
+
+  /* line 500, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 35px;
+    line-height: 65px; }
+
+  /* line 504, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 25px;
+    line-height: 47px; }
+
+  /* line 508, responsive_prices.scss */
+  .main-flex-wrapper {
+    padding: 0 5%; }
+
+  /* line 511, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: left; }
+
+  /* line 516, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    width: 100%;
+    flex-basis: 100%; }
+
+  /* line 520, responsive_prices.scss */
+  .portfolio-slider-line {
+    padding-top: 143px; }
+
+  /* line 523, responsive_prices.scss */
+  .rotating_prices h2 {
+    font-size: 23px;
+    width: 93%;
+    line-height: 30px; }
+
+  /* line 528, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:last-child .right-text {
+    height: 77%; }
+
+  /* line 531, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide .right-text span {
+    display: block;
+    padding-bottom: 15px;
+    background: #272726; }
+
+  /* line 536, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide:first-child .right-text {
+    display: flex;
+    align-items: center;
+    top: 33px;
+    height: 77%; } }
+@media screen and (max-width: 480px) and (max-height: 768px) {
+  /* line 548, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    padding: 0; }
+
+  /* line 551, responsive_prices.scss */
+  .heading_prices h1 {
+    font-size: 45px; } }
+@media screen and (max-width: 480px) {
+  /* line 556, responsive_prices.scss */
+  .portfolio-slider-line .scroll-slider {
+    width: 570vw; }
+
+  /* line 559, responsive_prices.scss */
+  .heading_prices h1 {
+    font-size: 47px; }
+
+  /* line 562, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 32px;
+    line-height: 55px; }
+
+  /* line 566, responsive_prices.scss */
+  .heading_prices h1 .heading_black {
+    font-size: 17px;
+    line-height: 36px; }
+
+  /* line 570, responsive_prices.scss */
+  .heading_subtext_right {
+    font-size: 17px; }
+
+  /* line 573, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    font-size: 15px; }
+
+  /* line 576, responsive_prices.scss */
+  .heading_prices .heading_subtext_small {
+    font-size: 13px; }
+
+  /* line 579, responsive_prices.scss */
+  .rotating_prices .scrollContainer .rotating-vertical .swiper-slide {
+    margin-left: 17%; }
+
+  /* line 582, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic {
+    width: 30vw !important;
+    right: 0; }
+
+  /* line 586, responsive_prices.scss */
+  .main-header .phone {
+    font-size: 18px;
+    white-space: nowrap; }
+
+  /* line 590, responsive_prices.scss */
+  .rotating_prices .scrollContainer .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    width: 85%;
+    background-size: contain !important; }
+
+  /* line 594, responsive_prices.scss */
+  .rotating_prices h2 {
+    font-size: 19px;
+    line-height: 25px; } }
+@media screen and (max-width: 360px) {
+  /* line 601, responsive_prices.scss */
+  .portfolio-slider-line {
+    padding-top: 167px; } }
+@media screen and (max-width: 360px) and (max-height: 568px) {
+  /* line 607, responsive_prices.scss */
+  .main-flex-wrapper {
+    padding: 0; }
+
+  /* line 610, responsive_prices.scss */
+  .rotating_prices h2 {
+    font-size: 14px;
+    line-height: 17px; }
+
+  /* line 614, responsive_prices.scss */
+  .heading_prices .heading_subtext_right {
+    padding-bottom: 7px; }
+
+  /* line 617, responsive_prices.scss */
+  .heading_prices h1 .heading_red {
+    font-size: 26px;
+    line-height: 49px; }
+
+  /* line 621, responsive_prices.scss */
+  .portfolio-slider-line {
+    font-size: 19px;
+    line-height: 25px; } }
