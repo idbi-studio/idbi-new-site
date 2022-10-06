@@ -40,17 +40,16 @@ $pageCount = $result->fetch_row()[0] / 10;
                                     <div class="article_preview-image_wrap image-container is-wide is-cover"
                                          style="background-image: url(<?= $article['image'] ?>);"></div>
                                     <a class="article_preview-image-shadow"
-                                       href="/blogs/blog/osnovy-dizayna-onbordinga"></a>
-                                    <a href="/blogs/blog/osnovy-dizayna-onbordinga"
+                                       href="/blogs/blog/<?= $article['permalink'] ?>"></a>
+                                    <a href="/blogs/blog/<?= $article['permalink'] ?>"
                                        class="article-date"><?= (new DateTime($article['published_at']))->format('d.m.y') ?></a>
                                 </div>
                                 <div class="cell-6 cell-12-s show-flex flex-middle article_preview-inner-wrap">
                                     <div class="article_preview-inner">
                                         <a class="article_preview-title"
-                                           href="/blogs/blog/osnovy-dizayna-onbordinga"><?= $article['title'] ?></a>
-                                        <a href="/blogs/blog/osnovy-dizayna-onbordinga"
-                                           class="article_preview-preview"><?= substr($article['content'], 0, 97) ?>
-                                            ...</a>
+                                           href="/blogs/blog/<?= $article['permalink'] ?>"><?= $article['title'] ?></a>
+                                        <a href="/blogs/blog/<?= $article['permalink'] ?>"
+                                           class="article_preview-preview"><?= substr($article['content'], 0, 97) ?>...</a>
                                     </div>
                                 </div>
                             </div>
