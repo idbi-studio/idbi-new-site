@@ -24,8 +24,8 @@
 
 
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ account.url }}" />
-<meta property="og:title" content="{{ account.title }}" />
+<meta property="og:url" content="https://idbi.ru" />
+<meta property="og:title" content="idbi | Разработка продающих интернет-ресурсов под ключ" />
 <meta property="twitter:card" content="summary_large_image" />
 
 <meta property="og:image" content="/assets/images/idbi-1200х628.jpg" />
