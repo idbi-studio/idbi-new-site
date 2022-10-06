@@ -8,7 +8,6 @@
 <title>
     Разработка интернет-магазинов под ключ — idbi
 </title>
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <!-- meta -->
 <meta charset="UTF-8" />
 <meta name="keywords" content='idbi | Разработка продающих интернет-ресурсов под ключ' />
