@@ -3,6 +3,13 @@
 <head>
     <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/head.tpl'; ?>
 
+    <meta property="og:title" content="{{ article.title }}" />
+    <meta property="og:image" content="{{ article.image.original_url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ article.url }}" />
+    <meta property="twitter:url" content="{{ article.url }}" />
+    <meta property="twitter:title" content="{{ article.title }}" />
+
     <!--CSS-->
     <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/style.tpl' ?>
 
