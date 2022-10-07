@@ -11,7 +11,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="article-content article-{{ article.url | split: '/' | last }}">
+    <div class="article-content">
         <div class="row is-grid">
             <div class="article-inner cell-9 cell-8-lg cell-12-m grid-8 padded-right m-grid-12 s-grid-12">
                 <!-- Article content -->
@@ -102,7 +102,7 @@
                     <p>Не будет лишним спрашивать у пользователей, насколько информативный и полезный контент они видят на онбординге. Если окажется, что большинство респондентов поставили негативную оценку, пересмотрите структуру стартового экрана.</p>
                     <p>Собирать обратную связь можно разными способами, но <strong>лучше всего для этого подходят короткие формы с 1-2 полями</strong>. Лучше добавить в них эмодзи для выставления оценки в виде реакций. Пользователи давно привыкли взаимодействовать с визуальными элементами.</p>
                     <p><strong>Онбординг — незаменимый инструмент для дизайнеров и UX-проектировщиков</strong>, который помогает погрузить целевую аудиторию в продукт и превращает сложные вещи в простые. Используйте его силу с пользой для своих проектов.</p>
-                    <p>Веб-студия <a href="https://idbi.ru/">IDBI</a> уделяет много времени пользовательскому опыту и знает, как создавать интерфейсы с высокой конверсией. Мы всегда на связи в рабочее время и готовы консультировать по любым вопросам, связанным с разработкой сайтов.</p>
+                    <p>Веб-студия <a href="https://idbi.ru/" title="IDBI">IDBI</a> уделяет много времени пользовательскому опыту и знает, как создавать интерфейсы с высокой конверсией. Мы всегда на связи в рабочее время и готовы консультировать по любым вопросам, связанным с разработкой сайтов.</p>
                 </div>
                 <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
                 <script src="https://yastatic.net/share2/share.js"></script>
@@ -111,10 +111,10 @@
             </div>
             <div class="cell-3 cell-4-lg cell-12-m article-right-sidebar shit">
                 <div class="row is-grid article-right-sidebar__wrap-form fixed pis">
-                    <a href="https://idbi.ru" class="cell-12 article-right-sidebar__form-title">Заказать интернет-магазин под ключ</a>
+                    <a href="https://idbi.ru" class="cell-12 article-right-sidebar__form-title" title="Заказать интернет-магазин под ключ">Заказать интернет-магазин под ключ</a>
                     <!-- Sidebar form -->
-                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/article-right-sidebar-form.tpl' ?>
-                    <a href="https://idbi.ru" class="cell-12 cell-5-m cell-8-s cell-10-xs cell-12-mc push-2-s push-1-xs push-0-mc"><img src="/assets/images/idbi-img-2.jpg" alt="pic"></a>
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/article-right-sidebar-form.php' ?>
+                    <a href="https://idbi.ru" class="cell-12 cell-5-m cell-8-s cell-10-xs cell-12-mc push-2-s push-1-xs push-0-mc" title=""><img src="/assets/images/idbi-img-2.jpg" alt="pic"></a>
                 </div>
             </div>
             <div class="blog-right-column grid-4 m-grid-12 s-grid-12">
@@ -122,25 +122,25 @@
                     <div class="last-articles cell-12">
                         <div class="art-tags-title">Облако тэгов</div>
                         <div class="art-tags">
-                            <a href="#" class="art-tag">Иллюстрации Фишки Виды сайтов 1</a>
-                            <a href="#" class="art-tag">Иллюстрации Фишки Виды сайтов 2</a>
-                            <a href="#" class="art-tag">Иллюстрации Фишки Виды сайтов 3</a>
+                            <a href="#" class="art-tag" title="">Иллюстрации Фишки Виды сайтов 1</a>
+                            <a href="#" class="art-tag" title="">Иллюстрации Фишки Виды сайтов 2</a>
+                            <a href="#" class="art-tag" title="">Иллюстрации Фишки Виды сайтов 3</a>
                         </div>
                         <div class="aside-header art-title" style="padding-bottom:30px">
                             Популярные посты
                         </div>
                         <ul class="articles-list list-vertical">
                             <li class="list-item show-flex flex-middle">
-                                <a href='{{ art.url }}' class="art-img" style="background-image: url(https://cdn.idbi.ru/images/articles/1/1089/1369153/large_98679.jpg)"></a>
+                                <a href='' class="art-img" style="background-image: url(https://cdn.idbi.ru/images/articles/1/1089/1369153/large_98679.jpg)"></a>
                                 <div class="art-wrap">
-                                    <a href='#' class="art-date">21.05.2021</a>
+                                    <a href='#' class="art-date" title="">21.05.2021</a>
                                     <a class="list-link art-link" href='#' title='Key visual в дизайне: особенности инструмента и советы по разработке'>Key visual в дизайне: особенности инструмента и советы по разработке</a>
                                 </div>
                             </li>
                             <li class="list-item show-flex flex-middle">
-                                <a href='{{ art.url }}' class="art-img" style="background-image: url(https://cdn.idbi.ru/images/articles/1/1089/1369153/large_98679.jpg)"></a>
+                                <a href='' class="art-img" title="" style="background-image: url(https://cdn.idbi.ru/images/articles/1/1089/1369153/large_98679.jpg)"></a>
                                 <div class="art-wrap">
-                                    <a href='#' class="art-date">14.05.2021</a>
+                                    <a href='#' class="art-date" title="">14.05.2021</a>
                                     <a class="list-link art-link" href='#' title='Ментальные модели в дизайне интерфейсов + 5 советов по использованию'>Ментальные модели в дизайне интерфейсов + 5 советов по использованию</a>
                                 </div>
                             </li>
@@ -151,7 +151,7 @@
         </div>
     </div>
 </div>
-<a href="#market-key" class="js-modal cookie-form" data-title="projectBlog"></a>
+<a href="#market-key" class="js-modal cookie-form" data-title="projectBlog" title=""></a>
 <script>
 $(window).load(function() {
     $(".load-wrap").remove();

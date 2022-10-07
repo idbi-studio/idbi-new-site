@@ -1,9 +1,9 @@
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="отзыв">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -30,16 +30,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -71,10 +71,10 @@
 
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="отзыв">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -101,16 +101,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -121,10 +121,10 @@
 
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -151,16 +151,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -171,10 +171,10 @@
 
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -201,16 +201,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@
 	<div class="new-inner">
 	  <div class="new-content">
 	    <div class="new-recall">
-	      <img src="/assets/images/new-place.svg" />
+	      <img src="/assets/images/new-place.svg" alt="">
 	      <span>Место для вашего проекта</span>
 	      <button data-buy-id-place="252074080" class="button js-modal" data-title="project2" href="#feedback-modal">Оставить заявку</button>
 	    </div>
@@ -235,10 +235,10 @@
 
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="отзыв">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -265,16 +265,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -285,10 +285,10 @@
 
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="отзыв">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -315,16 +315,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -335,10 +335,10 @@
 
 <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-93295355 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
     <div class="new-inner">
-        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg">
-            <img src="/assets/images/runetaward.png">
+        <a class="runet-rating-plate" data-fancybox="" href="/assets/images/runet_rate_2018_diplom_idbi.jpg" title="">
+            <img src="/assets/images/runetaward.png" alt="">
         </a>
-        <a href="#review-93295355" data-fancybox="" class="review-label-link">отзыв</a>
+        <a href="#review-93295355" data-fancybox="" class="review-label-link" title="отзыв">отзыв</a>
         <div style="display: none">
             <div class="review-popup" id="review-93295355">
                 <div class="inner">
@@ -365,16 +365,16 @@
             <div class="js-port-slider-all">
                 <div class="port-container">
                     <div class="port-slide active">
-                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg">
+                    	<img src="/assets/images/portfolio/portfolio_levage1.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage2.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage3.jpg" alt="">
                     </div>
                     <div class="port-slide">
-                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg">
+                    	<img class="js-load" data-src="/assets/images/portfolio/portfolio_levage4.jpg" alt="">
                     </div>
                 </div>
             </div>

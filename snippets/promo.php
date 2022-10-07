@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="pagination-wrap">
-        <a href="#0" class="js-promo-next promo-next"></a>
+        <a href="#0" class="js-promo-next promo-next" title=""></a>
         <div class="swiper-pagination swiper-pagination-black promo-slider-pagination"></div>
         <span class="label">scroll</span>
     </div>

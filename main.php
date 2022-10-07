@@ -7,26 +7,26 @@
                 </span>
                 <div></div>
                 <span class="first-line">
-                    про<a class="secret-link" href="/page/secret">даю</a>щий
+                    про<a class="secret-link" href="/page/secret" title="">даю</a>щий
                 </span>
                 <span class="second-line">
                     интернет-ресурс
                     <span class="js-type"></span>
                 </span>
             </h1>
-            <a href="#prices" class="learn-more-link go-link">УЗНАТЬ</a>
+            <a href="#prices" class="learn-more-link go-link" title="">УЗНАТЬ</a>
         </div>
     </div>
 </section>
 
 <section class="promo-section">
     <div class="container">
-      <?php include 'snippets/promo.tpl' ?>
+      <?php include 'snippets/promo.php' ?>
     </div>
 </section>
 
 <!-- Рейтинг РУНЕТА -->
-<?php include "snippets/our-award.tpl" ?>
+<?php include "snippets/our-award.php" ?>
 
 <section class="new-portfolio" id="projects">
   <div class="container">
@@ -34,14 +34,14 @@
 
     <div class="new-works row">
       <!-- Items work -->
-        <?php include 'snippets/our-work.tpl' ?>
+        <?php include 'snippets/our-work.php' ?>
 
 
 
         <div class="new-work with-form cell-4 cell-12-sm text-center" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
           <div class="new-inner">
             <div class="new-content">
-              <a class="more-works" href="/">Ещё</a>
+              <a class="more-works" href="/" title="">Ещё</a>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
 
 
 <!-- КАК ЭТО РАБОТАЕТ -->
-<?php include 'snippets/who_needd.tpl' ?>
+<?php include 'snippets/who_needd.php' ?>
 
 <section class="how-it-works">
   <div class="decor-title"><div class="container"><h2>как это работает</h2></div></div>
@@ -235,7 +235,7 @@
    </div>
 
   </div>
-   <a href="#feedback-modal" class="i-wish js-modal" >Хочу так же<!--<span>Х</span><span>о</span><span>ч</span><span>у</span><span>&nbsp;</span><span>т</span><span>а</span><span>к</span><span>&nbsp;</span><span>ж</span><span>е</span>--></a>
+   <a href="#feedback-modal" class="i-wish js-modal" title="">Хочу так же<!--<span>Х</span><span>о</span><span>ч</span><span>у</span><span>&nbsp;</span><span>т</span><span>а</span><span>к</span><span>&nbsp;</span><span>ж</span><span>е</span>--></a>
   <div class="cross"></div>
   
 </section>
@@ -300,10 +300,10 @@
   </div>
   
   <div class="bottom-image">
-  	<img src="/assets/images/mobile-app-image-2.jpg" data-aos="fade-up" data-aos-duration="600" />
+  	<img src="/assets/images/mobile-app-image-2.jpg" alt="" data-aos="fade-up" data-aos-duration="600" />
   </div>
 </div>
 
 
 <!-- У ВАС ЕСТЬ ПРОЕКТ? -->
-<?php include 'snippets/start-project.tpl' ?>
+<?php include 'snippets/start-project.php' ?>

@@ -1,7 +1,7 @@
 <section class="our-award">
   <div class="container">
     <h2>Разработчик<br>интернет-магазинов №1</h2>
-    <img src="/assets/images/shtamp.jpg" class="shtamp" />
+    <img src="/assets/images/shtamp.jpg" class="shtamp" alt="">
     <div class="swiper-container awards">
       <div class="swiper-wrapper">
         <!-- Slides -->

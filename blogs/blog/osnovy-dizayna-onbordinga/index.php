@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/head.tpl'; ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/head.php'; ?>
 
     <meta property="og:title" content="{{ article.title }}" />
     <meta property="og:image" content="{{ article.image.original_url }}" />
@@ -11,20 +11,20 @@
     <meta property="twitter:title" content="{{ article.title }}" />
 
     <!--CSS-->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/style.tpl' ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/style.php' ?>
 
 </head>
 <body class="template-is-blog">
 
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/header.tpl' ?>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/fixed_header.tpl' ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/header.php' ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/fixed_header.php' ?>
 
     <?php include 'osnovy-dizayna-onbordinga.php' ?>
 
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/footer.tpl'?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/footer.php'?>
 
     <!--JS-->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/scripts.tpl' ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/scripts.php' ?>
 
 
     <script type="text/javascript" src="https://momentjs.com/downloads/moment-with-locales.js"></script>

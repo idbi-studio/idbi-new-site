@@ -9,7 +9,7 @@
         <div class="new-inner">
           <div class="new-content">
             <div class="new-recall">
-              <img src="/assets/images/new-place.svg">
+              <img src="/assets/images/new-place.svg" alt="">
               <span>Место для вашего проекта</span>
               <button data-buy-id-place="252074080" class="button js-modal" data-title="project2" href="#feedback-modal">Оставить заявку</button>
             </div>
@@ -17,9 +17,9 @@
         </div>
       </div>
 
-      <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/our-work.tpl' ?>
-      <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/our-work.tpl' ?>
-      <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/our-work.tpl' ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/our-work.php' ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/our-work.php' ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/our-work.php' ?>
 
       <!-- to be continued -->
       <div class="new-work cell-4 cell-6-sm cell-12-xs text-center preview-98684111 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -36,7 +36,7 @@
                           </div>
                       </div>
                   </div>
-                  <img class="new-bg" src="/assets/images/portfolio_tobecontinued.jpg">
+                  <img class="new-bg" src="/assets/images/portfolio_tobecontinued.jpg" alt="">
               </div>
               <div class="port-pagination"></div>
           </div>
@@ -45,9 +45,9 @@
     </div>
   </div>
 
-  <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/start-project.tpl' ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/start-project.php' ?>
   
-  <a href="#feedback-modal" class="i-wish js-modal" >Хочу так же<</a>
+  <a href="#feedback-modal" class="i-wish js-modal" title="Хочу так же">Хочу так же</a>
   <div class="cross"></div>
 
 </div>

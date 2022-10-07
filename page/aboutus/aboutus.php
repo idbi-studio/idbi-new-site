@@ -10,8 +10,8 @@
                     <div class="serv-text">
                         <p>Digital агентство IDBI помогает бизнесу расти и развиваться в интернете с 2011 года.</p>
                         <p>Предлагаем своим клиентам широкий спектр услуг по разработке продающих интернет-магазинов под ключ, высоконагруженных веб-ресурсов и приложений, расширяющих функционал любой CMS. Брэндинг, дизайн, аналитика, разработка различной сложности модулей и программирование помноженные на экспертизу наших сотрудников.</p>
-                        <a href="https://www.insales.ru/collection/all/product/idbi"> <img width="200px" src="/assets/images/web-sertificate_partner_1.png" alt="pic" /> </a>
-                        <a href="https://ratingruneta.ru/e-commerce/high/" style="display: block; position: absolute; z-index: 99999; padding-top: 20px;">
+                        <a href="https://www.insales.ru/collection/all/product/idbi" title=""> <img width="200px" src="/assets/images/web-sertificate_partner_1.png" alt="pic" /> </a>
+                        <a href="https://ratingruneta.ru/e-commerce/high/" title="" style="display: block; position: absolute; z-index: 99999; padding-top: 20px;">
                             <img style="width: 259px;" src="https://images.cmsmagazine.ru/diff/cms-badges-generated/ecom_global/20190/59c4a4c73a86ef56c0fa135a91b98552_badge_6210d9bda480cb.png" alt="Рейтинг разработчиков интернет-магазинов. Верхний сегмент" /></a>
                     </div>
                 </div>
@@ -239,9 +239,9 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#feedback-modal" class="i-wish js-modal">Хочу так же</a>
+                        <a href="#feedback-modal" class="i-wish js-modal" title="Хочу так же">Хочу так же</a>
                         <div class="cross"></div>
-                        <a href="#feedback-modal" class="i-wish js-modal"><img src="{{ 'idbi_review.png'  | asset_url }}" alt="pic"></a>
+                        <a href="#feedback-modal" class="i-wish js-modal" title=""><img src="/assets/images/idbi_review.png" alt="pic"></a>
                     </section>
                 </div>
             </div>
@@ -250,56 +250,56 @@
             <h2 class="our-rewards__title">Наши<span>награды</span></h2>
             <div class="our-rewards__container row is-grid">
             	<!-- lsits -->
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
                     </div>
                     <span class="our-rewards__label">Рейтинг Рунета</span>
                 </a>
-                <a class="our-rewards__item cell-3" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
+                <a class="our-rewards__item cell-3" title="" data-aos="fade-up" data-aos-duration="600" data-aos-once="true" data-fancybox="images" href="/assets/images/awards_sites_diplom_1st.jpg">
                     <div class="our-rewards__body text-center">
                         <h3 class="our-rewards__item-title">«Рейтинг разработчиков интернет-магазинов» <br>Верхний сегмент</h3>
                         <p class="our-rewards__number">1 место</p>
@@ -310,7 +310,7 @@
         </section>
     </div>
 </section>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/start-project.tpl' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/snippets/start-project.php' ?>
 <section id="learn-more" class="learn-more">
     <div class="decor-title">
         <div class="container">

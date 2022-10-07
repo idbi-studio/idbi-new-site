@@ -14,7 +14,7 @@
                 <div class="decor-title">
                     <h2 class="mousemove-follower bg-text bg-2">Позвоните нам для получения бесплатной консультации<i class="after"></i></h2>
                 </div>
-                <a class="man_col phone" href="tel:+7 495 120-77-62">+7 495 120-77-62</a>
+                <a class="man_col phone" href="tel:+7 495 120-77-62" title="+7 495 120-77-62">+7 495 120-77-62</a>
             </div>
             <div class="cell-6">
                 <div class="or-label hide-xs">
@@ -62,7 +62,6 @@
                             Заказать звонок
                         </button>
                     </div>
-                    <input type="hidden" name="lang" value="{{ language.locale }}" />
                     <input type="hidden" name="subject" value="Обратный звонок">
                 </form>
             </div>

@@ -8,7 +8,7 @@
         <button type="submit" class="send-but mod-fast-order-sub make-order article-right-sidebar-btn" tabindex="4">Отправить</button>
         <button type="button" class="send-but mod-fast-order-close hide" tabindex="4">Закрыть</button>
     </form>
-    <a class="js-modal hide modal-send" href="#modal-send">обратный звонок</a>
+    <a class="js-modal hide modal-send" href="#modal-send" title="">обратный звонок</a>
 </div>
 
 <script>
@@ -22,35 +22,8 @@
                 var phone = $('#fo-phone');
                 var email = $('#fo-email');
                 var comment = $('#fo-comment');
-                var delivery = {{account.delivery_variants.first.id}};
-                var payment = {{account.payment_gateways.first.id}};
-
-//                if(name.val() == ''){
-//                    name.parent().addClass('row-error');   // если значение имени пустое выдаёт ошибку и добавляет класс ошибки
-//                    name_error = true;
-//                }else{
-//                    name.parent().removeClass('row-error');
-//                    name_error = false;
-//                }
-
-//                if(email.val() != '' && !filter.test(email.val())){
-//                    email.parent().addClass('row-error');               // если значение email не пустое и нет совпадений с регулярным выражением выдаёт ошибку и добавляет класс ошибки
-//                }else{
-//                    email.parent().removeClass('row-error');
-//                }
-
-//                if(phone.val() == ''){
-//                    phone.parent().addClass('row-error');               // если значение телефона пустое выдаёт ошибку и добавляет класс ошибки
-//                    phone_error = true;
-//                }else{
-//                    phone.parent().removeClass('row-error');
-//                    phone_error = false;
-//                }
-
-//                if(name_error || phone_error || (email.val() != '' && !filter.test(email.val()))) {
-//                    return;
-//                }
-
+                var delivery = delivery_uniq_id_123;
+                var payment = payment_uniq_id_123;
 
                 $.ajax({
                     url: '/cart_items.json',
@@ -64,13 +37,10 @@
                             data: 'pid_value=1&client[name]='+name.val()+'&order[comment]='+comment.val()+'&client[email]='+email.val()+'&client[phone]='+phone.val()+'&order[delivery_variant_id]='+delivery+'&order[payment_gateway_id]='+payment,
                             dataType: 'json',
                             beforeSend: function() {
-//                                show_preloader();
-//                                $(".mod-fast-call_form")[0].reset();
                             },
                             complete: function() {hide_preloader();},
                             success:  function(response) {
                                 if ( response.status == 'ok' ) {
-//                                    location.href = response.location
                                     $("#client")[0].reset();
                                     $(".modal-send").click();
 
@@ -83,9 +53,7 @@
 
 
 
-//            })
         }
-//        $('.template-is-article').prepend('<div id="opaco-mod-fast-order"></div><div class="mod-fast-order"><form method="post" action="/cart_items" class="mod-fast-call_form" style="text-align: right;"><div class="row flex-end"><label>Как Вас зовут?</label><input type="text" tabindex="1" id="fo-name" value=""></div><div class="row flex-end"><label>E-mail</label><input type="text" tabindex="2" id="fo-email"></div><div class="row flex-end"><label>Телефон</label><input type="text" tabindex="2" id="fo-phone" value=""></div><button type="button" class="send-but mod-fast-order-sub make-order" tabindex="4">Отправить</button><button type="button" class="send-but mod-fast-order-close" tabindex="4">Закрыть</button></form></div>');
 
         $(".make-order").click(function(e) {
             e.preventDefault();

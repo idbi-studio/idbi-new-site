@@ -1,15 +1,15 @@
 <div id="feedback-modal" class="modal-hide feedback-modal mfp-with-anim zx">
     <div class="row feadmess">
-        <a class="bottom-icon  wha aww" href="https://wa.me/79629545062">
-            <img src="/assets/images/icons8-whatsapp-48.png" />
+        <a class="bottom-icon  wha aww" href="https://wa.me/79629545062" title="">
+            <img src="/assets/images/icons8-whatsapp-48.png" alt="">
         </a>
-        <a class="bottom-icon telg" href="tg://resolve?domain=idbidevelop">
-            <img src="/assets/images/icons8-telegram-app-48.png" />
+        <a class="bottom-icon telg" href="tg://resolve?domain=idbidevelop" title="">
+            <img src="/assets/images/icons8-telegram-app-48.png" alt="">
         </a>
     </div>
     <div class="feedback-inner">
         <div class="feedback-inner-two">
-            <span class="feedback-logo"><img src="/assets/images/logo_light.svg" /></span>
+            <span class="feedback-logo"><img src="/assets/images/logo_light.svg" alt=""></span>
             <div class="feedback-title">Хочу проект
             </div>
             <form class="feedback js-feedback" action="/client_account/feedback" method="post">
@@ -61,11 +61,7 @@
 <div id="feedback-modal-promo" class="modal-hide feedback-modal mfp-with-anim">
     <div class="feedback-inner">
         <div class="feedback-inner-two">
-            <span class="feedback-logo"><img src="/assets/images/logo_light.svg" /></span>
-            {% assign min = 6521 %}
-            {% assign max = 8031 %}
-            {% assign diff = max | minus: min %}
-            {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+            <span class="feedback-logo"><img src="/assets/images/logo_light.svg" alt=""></span>
             <div class="feedback-title">Ваш промо-код <span data-promo-code></span>
             </div>
             <form class="feedback js-feedback" action="/client_account/feedback" method="post">

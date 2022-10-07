@@ -1,4 +1,5 @@
 // Blogs + articles 
+/*
 jQuery.getJSON('/media/articles.json', function func0(data) {
   var myjson = JSON.stringify(data)  
 
@@ -29,3 +30,4 @@ jQuery.getJSON('/media/articles.json', function func0(data) {
     }
   });
 })
+*/

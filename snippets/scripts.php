@@ -243,10 +243,7 @@ $(document).ready(function(){
 
 </script>
 
-<!-- {% include "templates_option" %} -->
-<!-- {% include "modals" %} -->
-
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/feedback.tpl' ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/snippets/feedback.php' ?>
 
 <script>
 $(window).load( function () {
