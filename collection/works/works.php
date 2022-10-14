@@ -24,7 +24,6 @@ if ($result === false) {
 
         <div class="new-works row">
             <?php
-            $products = [];
             $i = 1;
             while ($product = $result->fetch_assoc()) {
                 if (in_array($i, [5, 11, 19, 36,])) {
