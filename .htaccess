@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{ENV:HTTPS} !on
+RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} \/blogs\/blog\/tags\/[\w_\-]+ [NC]
+RewriteRule ^(.*)$ /blogs/blog/index.php?path=$1 [NC,L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} \/blogs\/blog\/[\w_\-]+ [NC]
+RewriteRule ^(.*)$ /blogs/blog/show/index.php?path=$1 [NC,L,QSA]

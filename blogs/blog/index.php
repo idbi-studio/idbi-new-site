@@ -21,7 +21,7 @@
 
     <script type="text/javascript" src="https://momentjs.com/downloads/moment-with-locales.js"></script>
 
-    <input type="text" data-variant-id-feedback value="253191219" class="hide">  
+    <input type="text" data-variant-id-feedback value="253191219" class="hide">
 </body>
 </html>
 
