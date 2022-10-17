@@ -7,7 +7,7 @@ if (count($permalink) !== 3) {
 }
 $permalink = $permalink[2];
 
-require_once '../../../src/connect_db.php';
+require_once '../../../../src/connect_db.php';
 /** @var $db */
 
 $permalink = $db->real_escape_string($permalink);

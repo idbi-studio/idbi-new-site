@@ -1,0 +1,23 @@
+{
+    "name": "idbi/idbi-new-site",
+    "description": "New IDBI website",
+    "type": "project",
+    "require": {
+        "symfony/mailer": "^6.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Idbi\\IdbiNewSite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Zhuchkov",
+            "email": "mr.shutn1k@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

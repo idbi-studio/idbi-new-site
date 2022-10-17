@@ -1,6 +1,21 @@
 <?php
 
-$host = 'host';
-$user = 'user';
-$pass = 'pass';
-$name = 'name';
+    'db' => [
+        'host' => 'host',
+        'user' => 'user',
+        'pass' => 'pass',
+        'name' => 'name',
+    ],
+
+    'email' => [
+        'user' => 'user',
+        'pass' => 'pass',
+        'from' => 'from',
+        'to' => 'to',
+        'dsn' => 'dsn',
+    ],
+
+    'telegram' => [
+        'api_key' => 'api_key',
+        'chat_id' => 'chat_id',
+    ]

@@ -1,4 +1,4 @@
-<div id="feedback-modal" class="modal-hide feedback-modal mfp-with-anim zx">
+<div id="feedback-modal" class="modal-hide feedback-modal mfp-with-anim zx js-feedback-modal">
     <div class="row feadmess">
         <a class="bottom-icon  wha aww" href="https://wa.me/79629545062" title="">
             <img src="/assets/images/icons8-whatsapp-48.png" alt="">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="feedback-row" data-feedback-field>
                     <div class="feedback-field-wrap">
-                        <input data-feedback-custom-content="Email клиента" placeholder="E-mail" name="from" type="email" data-title-form="ecom" class="feedback-field inpt text-field" />
+                        <input data-feedback-custom-content="Email клиента" placeholder="E-mail" name="email" type="email" data-title-form="ecom" class="feedback-field inpt text-field" />
                     </div>
                 </div>
                 <div class="feedback-row hide" data-feedback-field>
@@ -58,7 +58,7 @@
         </div>
     </div>
 </div>
-<div id="feedback-modal-promo" class="modal-hide feedback-modal mfp-with-anim">
+<div id="feedback-modal-promo" class="modal-hide feedback-modal mfp-with-anim js-feedback-modal">
     <div class="feedback-inner">
         <div class="feedback-inner-two">
             <span class="feedback-logo"><img src="/assets/images/logo_light.svg" alt=""></span>
@@ -115,7 +115,7 @@
         Заявка успешно отправлена
     </div>
 </div>
-<div id="market-key" class="modal-hide feedback-modal mfp-with-anim zx">
+<div id="market-key" class="modal-hide feedback-modal mfp-with-anim zx js-feedback-modal">
     <div class="feedback-inner">
         <div class="feedback-inner-two">
             <div class="feedback-bg">
@@ -135,7 +135,7 @@
                 </div>
                 <div class="feedback-row" data-feedback-field>
                     <div class="feedback-field-wrap">
-                        <input data-feedback-custom-content="Email клиента" placeholder="E-mail" name="from" type="email" data-title-form="ecom" class="feedback-field inpt text-field" />
+                        <input data-feedback-custom-content="Email клиента" placeholder="E-mail" name="email" type="email" data-title-form="ecom" class="feedback-field inpt text-field" />
                     </div>
                 </div>
                 <div class="feedback-row hide" data-feedback-field>

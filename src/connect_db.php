@@ -2,13 +2,10 @@
 
 require_once 'config.php';
 /**
- * @var $host
- * @var $user
- * @var $pass
- * @var $name
+ * @var $config
  */
 
-$db = new mysqli($host, $user, $pass, $name);
+$db = new mysqli($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['name']);
 if ($db->connect_error) {
     die('Database error' . $db->connect_errno);
 }

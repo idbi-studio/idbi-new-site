@@ -1,6 +1,6 @@
 <?php
 
-require_once '../../src/connect_db.php';
+require_once '../../../src/connect_db.php';
 /** @var $db */
 ?>
 <section class="reg-page">

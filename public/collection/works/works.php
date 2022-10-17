@@ -1,6 +1,6 @@
 <?php
 
-require_once '../../src/connect_db.php';
+require_once '../../../src/connect_db.php';
 /** @var $db */
 
 $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_FLOAT);
