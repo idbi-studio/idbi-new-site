@@ -11,7 +11,7 @@
         <?php if ($product['reward_image']) { ?>
             <a class="runet-rating-plate" data-fancybox=""
                href="<?= $product['reward_letter'] ?>">
-                <img src="/assets/images/runetaward.png">
+                <img src="<?= $product['reward_icon'] ?>">
             </a>
         <?php } ?>
         <?php if ($product['review']) { ?>
